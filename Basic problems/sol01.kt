@@ -11,14 +11,12 @@ fun screentime(a: Int, b: Int):String{
 }
 /* original solution 
 fun main() {
-    val steps = 4000
-    val caloriesBurned = pedometerStepsToCalories(steps)
-    println("Walking $steps steps burns $caloriesBurned calories") 
+    println("Have I spent more time using my phone today: ${compareTime(300, 250)}")
+    println("Have I spent more time using my phone today: ${compareTime(300, 300)}")
+    println("Have I spent more time using my phone today: ${compareTime(200, 220)}")
 }
 
-fun pedometerStepsToCalories(numberOfSteps: Int): Double {
-    val caloriesBurnedForEachStep = 0.04
-    val totalCaloriesBurned = numberOfSteps * caloriesBurnedForEachStep
-    return totalCaloriesBurned
+fun compareTime(timeSpentToday: Int, timeSpentYesterday: Int): Boolean {
+    return timeSpentToday > timeSpentYesterday
 }
 */
