@@ -1,1 +1,4 @@
+Q1 :
+Write a Kotlin function spentMoreTimeToday(timeSpentToday: Int, timeSpentYesterday: Int): Boolean that compares the time spent on a mobile phone today and yesterday. The function should return true if today's time is greater than yesterday's, otherwise false.
+
 
